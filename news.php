@@ -10,7 +10,7 @@
 	/* Datenbankanbindung */
 
 	/* Datenbankobjekt erstellen: Server, User, Passwort und Datenbanknamen eingeben (direkt wie hier oder wahlweise als Variablen */
-	$mysqli = new mysqli('localhost/phpmyadmin', 'root', 'root', 'newsletter_db');
+	$mysqli = new mysqli('localhost', 'root', 'root', 'newsletter_db');
 	
 	/* Fehler? 
 	Dann über Fehlernummer (errno) den Fehlertext ausgeben lassen (error). Wird im weiteren Verlauf der Einfachheit halber weggelassen */
