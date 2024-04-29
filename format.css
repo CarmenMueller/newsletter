@@ -1,0 +1,63 @@
+.Content {
+    padding: 15px; /*Innenabstand zum Rand des Browsers*/
+    max-width: 500px; /*Die Breite der eigentlichen Formularseite*/
+    margin: 0px auto 0px auto; /*Außenabstand, sodass Formularseite mittig ist*/
+    font-family:'Trebuchet MS'; /*Schriftart*/
+  }
+  h1 {
+    margin: 0px; /*Unterdrückt Außenabstand*/
+    font-size: 30px;/*Schriftgröße*/
+    padding-bottom: 20px; /*Innenabstand unten*/
+    font-weight: bold; /*Fettdruck der Schrift*/
+  }
+  p {
+    margin: 0px; /*Unterdrückt Außenabstand*/
+    padding-bottom: 15px; /*Innenabstand unten*/
+  }
+
+  .FieldColumn {
+    display: flex; /*Kreiert Abschnitt in Flexbox*/
+    justify-content: space-between; /*Elemente in Abschnitt werden gleichermaßen verteilt*/
+  }
+
+  .TextField {
+    padding-bottom: 15px; /*Alle Textfeldelemente Innenabstand unten*/
+  }
+  .TextField label { /*Text über Feld*/
+    width: 100%; /*für block*/
+    display: block; /*Zeigt ein Element als Blockelement an*/
+    font-size: 14px; /*Schriftgröße*/
+    padding: 0px 0px 5px 15px; /*Innenabstand*/
+  }
+  .TextField select, .TextField input { /*Dropdown und Textfeld*/
+    box-sizing: border-box;
+    border: none; /*Unterdrückt Boxrand*/
+    width: 100%; /*für inline-block*/
+    display: inline-block; /*Vorname und Nachname stehen nebeneinander*/
+    padding: 10px 25px 10px 25px; /*Innenabstand - länge der Felder*/
+    font-size: 15px; /*Schriftgröße*/
+    background-color: #dfdfdf; /*Boxfarbe*/
+    border-radius: 25px; /*Grad der runde Ecken*/
+  }
+  .TextField select {
+    padding: 10px 100px 10px 25px; /*Innenabstand - länge des Dropdowns*/
+  }
+
+  .Topics {
+    display: flex; /*Kreiert Abschnitt in Flexbox*/
+    justify-content: space-between; /*Elemente in Abschnitt werden gleichermaßen verteilt*/
+  }
+
+  .Radio label {
+    padding-left: 2px; /*Abstand zwischen Kontrollkasten und Label*/
+  }
+  
+  .Button {
+    border: none; /*Kein Rand*/
+    display: block; /*Zeigt ein Element als Blockelement an*/
+    background-color: #000000; /*Hintergrundfarbe*/
+    color: #ffffff; /*Schriftfarbe*/
+    padding: 10px; /*Innenabstand*/
+    margin: 15px 0px 0px auto; /*Außenabstand - großer Abstand links*/
+    cursor: pointer; /*Mauszeiger wird zur Hand*/
+  }
